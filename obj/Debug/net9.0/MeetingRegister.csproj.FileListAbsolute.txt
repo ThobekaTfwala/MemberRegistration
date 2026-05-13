@@ -1,0 +1,440 @@
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\appsettings.json
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\MeetingRegister.staticwebassets.runtime.json
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\MeetingRegister.staticwebassets.endpoints.json
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\MeetingRegister.exe
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\MeetingRegister.deps.json
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\MeetingRegister.runtimeconfig.json
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\MeetingRegister.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\MeetingRegister.pdb
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Humanizer.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\3D Objects\MeetingRegister\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingRegister.csproj.AssemblyReference.cache
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingRegister.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingRegister.AssemblyInfoInputs.cache
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingRegister.AssemblyInfo.cs
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingRegister.csproj.CoreCompileInputs.cache
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingRegister.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingRegister.RazorAssemblyInfo.cache
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingRegister.RazorAssemblyInfo.cs
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\scopedcss\bundle\MeetingRegister.styles.css
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\scopedcss\projectbundle\MeetingRegister.bundle.scp.css
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\apdne0w5s8-b9sayid5wm.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\sec30woz3g-61n19gt1b8.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\98rh4jdxfe-xtxxf3hu2r.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\kvedjc5jm8-bqjiyaj88i.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\tgake8ly0e-c2jlpeoesf.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\orhs8p7i27-erw9l3u2r3.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\nhigxyd0gp-aexeepp0ev.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\kxejqvquxc-d7shbmvgxk.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\8nwzvoum4e-ausgxo2sd3.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\a2zj9x3fg1-k8d9w2qqmf.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\6epvrh1oln-cosvhxvwiu.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\xgs0b0hti0-ub07r2b239.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\l06gj6iipd-fvhpjtyr6v.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\rj74mmvwz0-b7pk76d08c.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\wa9ur3upo7-fsbi9cje9m.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\hlfc35fr0k-rzd6atqjts.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\iivxfd4hfj-ee0r1s7dh0.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\4o0l2pc0kr-dxx9fxp4il.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\kreslsa0ew-jd9uben2k1.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\p2b9rh5eff-khv3u5hwcm.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\32tn0kyj7n-r4e9w2rdcm.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\8pemwuy36y-lcd1t2u6c8.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\tm5d9jcjuu-c2oey78nd0.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\fqv6y3afhs-tdbxkamptv.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\dvkgcak8qt-j5mq2jizvt.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\3bx988zhlj-06098lyss8.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\pkdcgtixmw-nvvlpmu67g.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\ufn4ykcipm-s35ty4nyc5.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\2iqyvap2g5-pj5nd1wqec.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\nzo3d31wkm-46ein0sx1k.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\1vghssqjl4-v0zj4ognzu.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\4z3zrttxew-37tfw0ft22.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\63xfnt3cu5-hrwsygsryq.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\1azv8h6ad2-pk9g2wxc8p.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\94n1x14j1t-ft3s53vfgj.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\12gexx3jn4-6cfz1n2cew.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\uoo1hziw0l-6pdc2jztkx.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\sihf0mtv4n-493y06b0oq.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\srbygvr0i2-iovd86k7lj.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\atdlegspn3-vr1egmr9el.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\fg3jryd8os-kbrnm935zg.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\vvdg64npx6-jj8uyg4cgr.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\vn18jfqtyb-y7v9cxd14o.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\8yjuqs7y8r-notf2xhcfb.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\m9a3i6hb5y-h1s4sie4z3.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\vze0x7knnp-63fj8s7r0e.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\7vd33y07yh-0j3bgjxly4.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\uwrkq5ksot-47otxtyo56.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\cbwbjq6eok-4v8eqarkd7.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\3mbu97ojky-356vix0kms.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\vc728j61zu-83jwlth58m.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\v2bbfc4u6e-mrlpezrjn3.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\s24yiu4vm1-lzl9nlhx6b.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\nqt6ohmfhd-ag7o75518u.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\e91oxyem33-x0q3zqp4vz.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\orklt4soi6-0i3buxo5is.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\nagsgxthd7-o1o13a6vjx.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\g48sor87vt-ttgo8qnofa.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\ifwj2fdy01-2z0ns9nrw6.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\3yr62vgjnc-muycvpuwrr.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\k7ldtbzata-87fc7y1x7t.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\d24r0t7ao3-mlv21k5csn.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\avwoy06fqz-0hk30r7liu.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\compressed\lwv77lrxal-0hk30r7liu.gz
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingR.2EE5358C.Up2Date
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingRegister.dll
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\refint\MeetingRegister.dll
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingRegister.pdb
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\MeetingRegister.genruntimeconfig.cache
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\ref\MeetingRegister.dll
+C:\Users\User\3D Objects\MeetingRegister\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\appsettings.json
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\MeetingRegister.staticwebassets.endpoints.json
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\MeetingRegister.staticwebassets.runtime.json
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\MeetingRegister.exe
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\MeetingRegister.deps.json
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\MeetingRegister.runtimeconfig.json
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\MeetingRegister.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\MeetingRegister.pdb
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Humanizer.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\source\repos\MemberRegistration\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingRegister.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingRegister.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingRegister.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingRegister.AssemblyInfo.cs
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingRegister.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingRegister.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingRegister.RazorAssemblyInfo.cache
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingRegister.RazorAssemblyInfo.cs
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\scopedcss\bundle\MeetingRegister.styles.css
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\scopedcss\projectbundle\MeetingRegister.bundle.scp.css
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\apdne0w5s8-b9sayid5wm.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\sec30woz3g-61n19gt1b8.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\98rh4jdxfe-xtxxf3hu2r.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\kvedjc5jm8-bqjiyaj88i.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\tgake8ly0e-c2jlpeoesf.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\orhs8p7i27-erw9l3u2r3.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\nhigxyd0gp-aexeepp0ev.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\kxejqvquxc-d7shbmvgxk.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\8nwzvoum4e-ausgxo2sd3.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\a2zj9x3fg1-k8d9w2qqmf.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\6epvrh1oln-cosvhxvwiu.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\xgs0b0hti0-ub07r2b239.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\l06gj6iipd-fvhpjtyr6v.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\rj74mmvwz0-b7pk76d08c.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\wa9ur3upo7-fsbi9cje9m.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\hlfc35fr0k-rzd6atqjts.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\iivxfd4hfj-ee0r1s7dh0.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\4o0l2pc0kr-dxx9fxp4il.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\kreslsa0ew-jd9uben2k1.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\p2b9rh5eff-khv3u5hwcm.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\32tn0kyj7n-r4e9w2rdcm.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\8pemwuy36y-lcd1t2u6c8.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\tm5d9jcjuu-c2oey78nd0.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\fqv6y3afhs-tdbxkamptv.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\dvkgcak8qt-j5mq2jizvt.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\3bx988zhlj-06098lyss8.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\pkdcgtixmw-nvvlpmu67g.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\ufn4ykcipm-s35ty4nyc5.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\2iqyvap2g5-pj5nd1wqec.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\nzo3d31wkm-46ein0sx1k.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\1vghssqjl4-v0zj4ognzu.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\4z3zrttxew-37tfw0ft22.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\63xfnt3cu5-hrwsygsryq.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\1azv8h6ad2-pk9g2wxc8p.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\94n1x14j1t-ft3s53vfgj.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\12gexx3jn4-6cfz1n2cew.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\uoo1hziw0l-6pdc2jztkx.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\sihf0mtv4n-493y06b0oq.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\srbygvr0i2-iovd86k7lj.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\atdlegspn3-vr1egmr9el.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\fg3jryd8os-kbrnm935zg.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\vvdg64npx6-jj8uyg4cgr.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\vn18jfqtyb-y7v9cxd14o.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\8yjuqs7y8r-notf2xhcfb.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\m9a3i6hb5y-h1s4sie4z3.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\vze0x7knnp-63fj8s7r0e.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\7vd33y07yh-0j3bgjxly4.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\uwrkq5ksot-47otxtyo56.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\cbwbjq6eok-4v8eqarkd7.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\3mbu97ojky-356vix0kms.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\vc728j61zu-83jwlth58m.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\v2bbfc4u6e-mrlpezrjn3.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\s24yiu4vm1-lzl9nlhx6b.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\nqt6ohmfhd-ag7o75518u.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\e91oxyem33-x0q3zqp4vz.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\orklt4soi6-0i3buxo5is.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\nagsgxthd7-o1o13a6vjx.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\g48sor87vt-ttgo8qnofa.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\ifwj2fdy01-2z0ns9nrw6.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\3yr62vgjnc-muycvpuwrr.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\k7ldtbzata-87fc7y1x7t.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\d24r0t7ao3-mlv21k5csn.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\avwoy06fqz-0hk30r7liu.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\compressed\lwv77lrxal-0hk30r7liu.gz
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingR.2EE5358C.Up2Date
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingRegister.dll
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\refint\MeetingRegister.dll
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingRegister.pdb
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\MeetingRegister.genruntimeconfig.cache
+C:\Users\User\source\repos\MemberRegistration\obj\Debug\net9.0\ref\MeetingRegister.dll
