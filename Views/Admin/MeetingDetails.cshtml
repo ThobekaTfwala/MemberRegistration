@@ -1,0 +1,194 @@
+@model MeetingRegister.Models.Meeting
+
+@{
+    ViewData["Title"] = "Meeting Details";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-action="Dashboard">Dashboard</a></li>
+                    <li class="breadcrumb-item active">Meeting Details</li>
+                </ol>
+            </nav>
+            <h1 class="display-5">@Model.Title</h1>
+            <p class="lead text-muted"><i class="bi bi-geo-alt me-1"></i> @Model.Venue</p>
+        </div>
+        <div class="col-md-4 text-end">
+            <div class="p-3 bg-light border rounded shadow-sm">
+                <div class="small text-muted text-uppercase fw-bold">Registration Code</div>
+                <div class="h2 mb-0 text-primary">#@Model.MeetingCode</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-5">
+        <div class="col-md-3">
+            <div class="card bg-primary text-white border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="small text-uppercase">Start Time</div>
+                    <div class="h5 mb-0">@Model.StartTime.ToString("MMM dd, HH:mm")</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-danger text-white border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="small text-uppercase">Expiry Time</div>
+                    <div class="h5 mb-0">@Model.ExpiryTime.ToString("MMM dd, HH:mm")</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-success text-white border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="small text-uppercase">Total Attendees</div>
+                    <div class="h5 mb-0">@Model.Attendees.Count</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-info text-white border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="small text-uppercase">Status</div>
+                    <div class="h5 mb-0">@(DateTime.Now > Model.ExpiryTime ? "EXPIRED" : "ACTIVE")</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card shadow-sm border-0 mt-4">
+        <div class="card-header bg-dark text-white py-3">
+            <h5 class="mb-0">Attendee List</h5>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Name</th>
+                            <th>Contact Info</th>
+                            <th>QR Code</th>
+                            <th class="text-center">Sessions</th>
+                            <th class="text-end">Total Time Spent</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (!Model.Attendees.Any())
+                        {
+                            <tr>
+                                <td colspan="5" class="text-center py-5 text-muted">
+                                    No attendees registered for this meeting yet.
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            foreach (var attendee in Model.Attendees.OrderBy(a => a.Name))
+                            {
+                                var totalTicks = attendee.Sessions.Where(s => s.Duration.HasValue).Sum(s => s.Duration.Value.Ticks);
+                                var totalTime = new TimeSpan(totalTicks);
+                                var attendeeId = $"attendee-{attendee.Id}";
+
+                                <tr class="bg-white">
+                                    <td class="fw-bold">@attendee.Name</td>
+                                    <td>
+                                        <div class="small"><i class="bi bi-telephone me-1"></i>@attendee.Cellphone</div>
+                                        <div class="small text-muted"><i class="bi bi-envelope me-1"></i>@attendee.Email</div>
+                                    </td>
+                                    <td><span class="badge bg-secondary">@attendee.QRCode</span></td>
+                                    <td class="text-center">
+                                        <button type="button" class="btn btn-outline-primary btn-sm rounded-pill px-3" 
+                                                onclick="showSessions('@attendee.Name', '@attendeeId')">
+                                            <i class="bi bi-clock-history me-1"></i> @attendee.Sessions.Count Sessions
+                                        </button>
+                                        
+                                        <!-- Hidden data for modal -->
+                                        <div id="@attendeeId" class="d-none">
+                                            <div class="table-responsive">
+                                                <table class="table table-sm table-striped">
+                                                    <thead class="table-light">
+                                                        <tr class="small">
+                                                            <th>#</th>
+                                                            <th>Scan In</th>
+                                                            <th>Scan Out</th>
+                                                            <th class="text-end">Duration</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        @{ var sIdx = 1; }
+                                                        @foreach (var s in attendee.Sessions.OrderBy(x => x.InTime))
+                                                        {
+                                                            <tr class="small">
+                                                                <td>@sIdx++</td>
+                                                                <td>@s.InTime.ToString("HH:mm:ss")</td>
+                                                                <td>@(s.OutTime?.ToString("HH:mm:ss") ?? "Active")</td>
+                                                                <td class="text-end fw-bold text-primary">@(s.Duration?.ToString(@"hh\:mm") ?? "-")</td>
+                                                            </tr>
+                                                        }
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-end fw-bold text-success">
+                                        @{
+                                            var hours = (int)totalTime.TotalHours;
+                                            var minutes = totalTime.Minutes;
+                                            var displayTime = hours > 0 ? $"{hours}h {minutes}m" : $"{minutes}m";
+                                        }
+                                        @displayTime
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sessions Modal -->
+<div class="modal fade" id="sessionsModal" tabindex="-1" aria-labelledby="sessionsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="sessionsModalLabel">
+                    <i class="bi bi-clock-history me-2"></i>Scan History
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <div class="mb-4">
+                    <label class="small text-muted text-uppercase fw-bold">Attendee Name</label>
+                    <div id="modalAttendeeName" class="h4 mb-0"></div>
+                </div>
+                <div id="modalSessionsContent">
+                    <!-- Session table will be injected here -->
+                </div>
+            </div>
+            <div class="modal-footer bg-light">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function showSessions(name, dataId) {
+            const nameEl = document.getElementById('modalAttendeeName');
+            const contentEl = document.getElementById('modalSessionsContent');
+            const dataEl = document.getElementById(dataId);
+            
+            nameEl.innerText = name;
+            contentEl.innerHTML = dataEl.innerHTML;
+            
+            const modal = new bootstrap.Modal(document.getElementById('sessionsModal'));
+            modal.show();
+        }
+    </script>
+}

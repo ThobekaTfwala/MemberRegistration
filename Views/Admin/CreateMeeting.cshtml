@@ -1,0 +1,73 @@
+@model MeetingRegister.Models.Meeting
+
+@{
+    ViewData["Title"] = "Create Meeting";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow border-0">
+                <div class="card-header bg-dark text-white py-3">
+                    <h4 class="mb-0">Create New Meeting</h4>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="CreateMeeting" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Title" class="form-label"></label>
+                            <input asp-for="Title" class="form-control" placeholder="e.g. Annual General Meeting" />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Venue" class="form-label"></label>
+                            <input asp-for="Venue" class="form-control" placeholder="e.g. Conference Hall A" />
+                            <span asp-validation-for="Venue" class="text-danger"></span>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label asp-for="StartTime" class="form-label"></label>
+                                <input asp-for="StartTime" id="StartTime" class="form-control" type="datetime-local" min="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+                                <span asp-validation-for="StartTime" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="ExpiryTime" class="form-label"></label>
+                                <input asp-for="ExpiryTime" id="ExpiryTime" class="form-control" type="datetime-local" min="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+                                <span asp-validation-for="ExpiryTime" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="alert alert-info border-0 shadow-sm mb-4">
+                            <i class="bi bi-magic me-2"></i>A unique 5-character <strong>Meeting Code</strong> will be generated automatically upon creation.
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg">Create Meeting</button>
+                            <a asp-action="Dashboard" class="btn btn-link text-muted">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        const startTimeInput = document.getElementById('StartTime');
+        const expiryTimeInput = document.getElementById('ExpiryTime');
+
+        startTimeInput.addEventListener('change', function() {
+            // When start time changes, the expiry time cannot be before the start time
+            expiryTimeInput.min = startTimeInput.value;
+            
+            if (expiryTimeInput.value && expiryTimeInput.value < startTimeInput.value) {
+                expiryTimeInput.value = startTimeInput.value;
+            }
+        });
+    </script>
+}

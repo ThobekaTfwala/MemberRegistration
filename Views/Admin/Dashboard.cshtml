@@ -1,0 +1,95 @@
+@model IEnumerable<MeetingRegister.Models.Meeting>
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="bi bi-calendar-event me-2"></i>Meetings Management</h2>
+        <a asp-action="CreateMeeting" class="btn btn-primary shadow-sm"><i class="bi bi-plus-lg me-1"></i>Create New Meeting</a>
+    </div>
+
+    @if (TempData["NewMeetingCode"] != null)
+    {
+        <div class="alert alert-success border-0 shadow-lg p-4 mb-5" role="alert">
+            <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                    <i class="bi bi-check-circle-fill fs-1"></i>
+                </div>
+                <div class="flex-grow-1 ms-4">
+                    <h4 class="alert-heading fw-bold mb-1">Meeting Created Successfully!</h4>
+                    <p class="mb-0">Share this code with attendees to allow them to register and scan in.</p>
+                </div>
+                <div class="ms-4 text-center p-3 bg-white rounded shadow-sm">
+                    <div class="small text-muted text-uppercase fw-bold mb-1">Meeting Code</div>
+                    <div class="d-flex align-items-center">
+                        <span id="newMeetingCode" class="h1 mb-0 fw-bold text-primary me-3">@TempData["NewMeetingCode"]</span>
+                        <button class="btn btn-outline-primary btn-sm" onclick="copyCode('@TempData["NewMeetingCode"]')">
+                            <i class="bi bi-clipboard me-1"></i>Copy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="row">
+        @if (!Model.Any())
+        {
+            <div class="col-12 text-center py-5">
+                <i class="bi bi-calendar-x fs-1 text-muted d-block mb-3"></i>
+                <h5 class="text-muted">No meetings created yet.</h5>
+            </div>
+        }
+        else
+        {
+            foreach (var meeting in Model)
+            {
+                var isExpired = DateTime.Now > meeting.ExpiryTime;
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0 @(isExpired ? "opacity-75" : "")">
+                        <div class="card-header @(isExpired ? "bg-secondary" : "bg-primary") text-white py-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="card-title mb-0">@meeting.Title</h5>
+                                <span class="badge bg-light text-dark fw-bold" style="letter-spacing: 1px;">@meeting.MeetingCode</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-2 small"><i class="bi bi-geo-alt me-2 text-primary"></i><strong>Venue:</strong> @meeting.Venue</p>
+                            <p class="mb-2 small"><i class="bi bi-clock me-2 text-primary"></i><strong>Starts:</strong> @meeting.StartTime.ToString("MMM dd, HH:mm")</p>
+                            <p class="mb-3 small"><i class="bi bi-hourglass-bottom me-2 text-danger"></i><strong>Expires:</strong> @meeting.ExpiryTime.ToString("MMM dd, HH:mm")</p>
+                            
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <span class="badge bg-info text-dark">@meeting.Attendees.Count Attendees</span>
+                                @if (isExpired)
+                                {
+                                    <span class="text-danger small fw-bold">EXPIRED</span>
+                                }
+                                else
+                                {
+                                    <span class="text-success small fw-bold">ACTIVE</span>
+                                }
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-0 pb-3 text-center">
+                            <a asp-action="MeetingDetails" asp-route-id="@meeting.Id" class="btn btn-outline-primary w-100">
+                                <i class="bi bi-info-circle me-1"></i>View Details & Attendees
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function copyCode(code) {
+            navigator.clipboard.writeText(code).then(() => {
+                alert('Meeting Code copied to clipboard: ' + code);
+            });
+        }
+    </script>
+}

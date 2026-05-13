@@ -1,0 +1,177 @@
+@model MeetingRegister.Models.RegistrationViewModel
+
+@{
+    ViewData["Title"] = "Meeting Registration";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-header bg-primary text-white text-center py-4">
+                    <h3 class="mb-0 font-weight-light">Meeting Access</h3>
+                    <p class="mb-0 mt-2 small text-white-50">Select an option to proceed</p>
+                </div>
+                <div class="card-body p-4">
+                    
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <i class="bi bi-check-circle-fill me-2"></i>@TempData["SuccessMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="alert alert-danger">
+                            <div asp-validation-summary="All" class="text-danger mb-0 small"></div>
+                        </div>
+                    }
+
+                    <!-- Action Selector Buttons -->
+                    <div id="modeSelector" class="d-grid gap-3 mb-4">
+                        <button type="button" id="btnRegisterMode" class="btn btn-primary btn-lg py-3 shadow-sm">
+                            <i class="bi bi-person-plus-fill me-2"></i>Register for a Meeting
+                        </button>
+                        <button type="button" id="btnScanMode" class="btn btn-outline-secondary btn-lg py-3">
+                            <i class="bi bi-qr-code-scan me-2"></i>Scan In / Out (Existing)
+                        </button>
+                    </div>
+
+                    <div id="qr-reader-container" class="mb-4 d-none text-center">
+                        <div id="qr-reader" style="width: 100%; border-radius: 10px; overflow: hidden;"></div>
+                        <button type="button" id="stop-camera" class="btn btn-outline-danger btn-sm mt-2 w-100">Stop Camera</button>
+                    </div>
+
+                    <form asp-action="Index" method="post" id="registrationForm" class="d-none">
+                        
+                        <div id="meetingCodeField" class="form-floating mb-3 border-bottom pb-3 border-primary border-3 d-none">
+                            <input asp-for="MeetingCode" class="form-control form-control-lg fw-bold text-primary" placeholder="ABC12" maxlength="5" autocomplete="off" style="letter-spacing: 2px; text-transform: uppercase;" />
+                            <label asp-for="MeetingCode" class="fw-bold">Meeting Code (5 Characters)</label>
+                        </div>
+
+                        <div id="registrationFields" class="d-none">
+                            <div class="form-floating mb-3">
+                                <input asp-for="Name" class="form-control" placeholder="John Doe" />
+                                <label asp-for="Name"></label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input asp-for="Cellphone" class="form-control" placeholder="+123456789" />
+                                <label asp-for="Cellphone"></label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input asp-for="Email" class="form-control" placeholder="john@example.com" />
+                                <label asp-for="Email"></label>
+                            </div>
+                        </div>
+
+                        <div class="mb-4 mt-3">
+                            <div class="form-floating position-relative">
+                                <input asp-for="QRCode" class="form-control form-control-lg border-primary" placeholder="Scan QR Code here..." autocomplete="off" />
+                                <label asp-for="QRCode" class="text-primary fw-bold">Scan QR Code</label>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <small id="scannerLabel" class="text-muted"><i class="bi bi-upc-scan me-1"></i> Scanner ready</small>
+                                <button type="button" id="start-camera" class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-camera me-1"></i>Use Camera
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 mb-3">
+                            <button type="submit" class="btn btn-primary btn-lg shadow-sm">Submit Access</button>
+                            <button type="button" id="btnBack" class="btn btn-link text-muted mt-2">Back to options</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <script>
+        const qrCodeInput = document.getElementById('QRCode');
+        const mCodeInput = document.getElementById('MeetingCode');
+        const registrationForm = document.getElementById('registrationForm');
+        const registrationFields = document.getElementById('registrationFields');
+        const meetingCodeField = document.getElementById('meetingCodeField');
+        const readerContainer = document.getElementById('qr-reader-container');
+        const startCameraButton = document.getElementById('start-camera');
+        const stopCameraButton = document.getElementById('stop-camera');
+        const modeSelector = document.getElementById('modeSelector');
+        
+        const btnRegisterMode = document.getElementById('btnRegisterMode');
+        const btnScanMode = document.getElementById('btnScanMode');
+        const btnBack = document.getElementById('btnBack');
+        
+        let html5QrCode;
+
+        mCodeInput.addEventListener('input', function() {
+            this.value = this.value.toUpperCase();
+        });
+
+        btnRegisterMode.addEventListener('click', () => {
+            modeSelector.classList.add('d-none');
+            registrationForm.classList.remove('d-none');
+            registrationFields.classList.remove('d-none');
+            meetingCodeField.classList.remove('d-none');
+            mCodeInput.focus();
+        });
+
+        btnScanMode.addEventListener('click', () => {
+            modeSelector.classList.add('d-none');
+            registrationForm.classList.remove('d-none');
+            registrationFields.classList.add('d-none');
+            meetingCodeField.classList.add('d-none');
+            qrCodeInput.focus();
+        });
+
+        btnBack.addEventListener('click', () => {
+            stopCamera();
+            modeSelector.classList.remove('d-none');
+            registrationForm.classList.add('d-none');
+            qrCodeInput.value = '';
+            mCodeInput.value = '';
+        });
+
+        qrCodeInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                registrationForm.submit();
+            }
+        });
+
+        startCameraButton.addEventListener('click', () => {
+            readerContainer.classList.remove('d-none');
+            startCameraButton.classList.add('d-none');
+            html5QrCode = new Html5Qrcode("qr-reader");
+            html5QrCode.start({ facingMode: "environment" }, { fps: 10, qrbox: 250 },
+                (decodedText) => {
+                    qrCodeInput.value = decodedText;
+                    stopCamera();
+                    registrationForm.submit();
+                }, (errorMessage) => {}
+            ).catch(err => { alert("Camera error: " + err); stopCamera(); });
+        });
+
+        stopCameraButton.addEventListener('click', stopCamera);
+
+        function stopCamera() {
+            if (html5QrCode) {
+                html5QrCode.stop().finally(() => {
+                    readerContainer.classList.add('d-none');
+                    startCameraButton.classList.remove('d-none');
+                });
+            } else {
+                readerContainer.classList.add('d-none');
+                startCameraButton.classList.remove('d-none');
+            }
+        }
+    </script>
+}
